@@ -29,7 +29,7 @@ public class JavaApplication1 {
         Parent global_variable = child;
         
         System.out.println(global_variable);
-        
+        System.out.println(global_variable.getClass().getName());
         
     }
 
